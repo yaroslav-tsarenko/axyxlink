@@ -1,0 +1,314 @@
+.sign-up-to,
+.sign-up2 {
+  align-self: stretch;
+  position: relative;
+}
+.sign-up2 {
+  line-height: 53px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.sign-up-to {
+  font-size: 16px;
+  line-height: 22px;
+  color: #1c1c1c;
+}
+.sign-up-parent {
+  width: 319px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.your-name {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Almarai;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 79px;
+}
+.your-name-wrapper {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7px 11px;
+  min-width: 159px;
+  white-space: nowrap;
+}
+.email {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Almarai;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 40px;
+}
+.email-wrapper,
+.frame-parent22 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.email-wrapper {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+  padding: 7px 11px;
+  min-width: 159px;
+}
+.frame-parent22 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 11px;
+}
+.country,
+.frame-textfield {
+  font-size: 16px;
+  font-family: Almarai;
+  color: #000;
+}
+.frame-textfield {
+  border: 0;
+  background-color: transparent;
+  height: 40px;
+  flex: 1;
+  min-width: 159px;
+}
+.country {
+  position: relative;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  min-width: 56px;
+}
+.frame-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.country-parent {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 11px;
+  min-width: 159px;
+  gap: 20px;
+}
+.frame-parent23 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.username {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Almarai;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 73px;
+}
+.frame-child2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.username-parent {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 11px;
+  min-width: 159px;
+  gap: 20px;
+}
+.password {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Almarai;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 69px;
+}
+.frame-child3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.password-parent {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 11px;
+  min-width: 159px;
+  gap: 20px;
+}
+.frame-parent24 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 11px;
+}
+.button9 {
+  align-self: stretch;
+  height: 38px;
+}
+.frame-parent21 {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.or-sign-up {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 101px;
+}
+.frame-child4,
+.frame-child5,
+.frame-child6 {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 45px;
+}
+.frame-parent25 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.sign-in,
+.sign-up-desktop {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-in {
+  width: 573px;
+  border-radius: 24px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 92px 36px;
+  gap: 36px;
+}
+.sign-up-desktop {
+  align-self: stretch;
+  background-color: #fff;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 130px 0 129px 1px;
+  z-index: 3;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: Almarai;
+}
+@media screen and (max-width: 1225px) {
+  .sign-up-desktop {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .sign-up2 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .country-parent,
+  .frame-textfield {
+    flex: 1;
+  }
+  .frame-parent23 {
+    flex-wrap: wrap;
+  }
+  .sign-in {
+    gap: 18px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-up2 {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .button9 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .sign-up-desktop {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,192 @@
+.sign-in-to,
+.sign-in2 {
+  align-self: stretch;
+  position: relative;
+}
+.sign-in2 {
+  line-height: 53px;
+  font-weight: 700;
+}
+.sign-in-to {
+  font-size: 16px;
+  line-height: 135%;
+  color: #1c1c1c;
+}
+.sign-in-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1px;
+  gap: 12px;
+}
+.username1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Almarai;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 73px;
+}
+.frame-child7 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.username-group {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 12px 7px 10px;
+  gap: 20px;
+}
+.password1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Almarai;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 69px;
+}
+.frame-child8 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.password-group {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 16px 7px 10px;
+  gap: 20px;
+}
+.button10 {
+  align-self: stretch;
+  height: 38px;
+}
+.frame-parent27 {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.or-sign-in {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 96px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child9 {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 45px;
+}
+.frame-parent26,
+.frame-parent28 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.frame-parent26 {
+  width: 322px;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  max-width: 100%;
+}
+.sign-in-desktop,
+.sign-in1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-in1 {
+  width: 584px;
+  border-radius: 24px;
+  flex-shrink: 0;
+  padding: 93px 20px 92px;
+}
+.sign-in-desktop {
+  align-self: stretch;
+  background-color: #fff;
+  padding: 144px 0 143px;
+  z-index: 3;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: Almarai;
+}
+@media screen and (max-width: 1225px) {
+  .sign-in-desktop {
+    padding-top: 94px;
+    padding-bottom: 93px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .sign-in2 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .sign-in1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-in2 {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .button10 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .frame-parent26 {
+    gap: 18px;
+  }
+  .sign-in-desktop {
+    padding-top: 61px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+}

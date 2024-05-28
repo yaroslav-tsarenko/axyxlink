@@ -1,0 +1,134 @@
+.button-activate-mobile-searc1 {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: 266px;
+  border-radius: 9999px;
+  width: 32px;
+  height: 32px;
+}
+.button-toggle-menu-svg1 {
+  position: absolute;
+  top: 11.5px;
+  left: 356px;
+  width: 1px;
+  height: 40px;
+}
+.vector-icon3,
+.vector-icon4,
+.vector-icon5 {
+  position: absolute;
+  width: 0.2%;
+  top: 49.22%;
+  right: 7.35%;
+  left: 92.46%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+}
+.vector-icon4,
+.vector-icon5 {
+  top: 33.59%;
+}
+.vector-icon5 {
+  top: 64.84%;
+}
+.sim-card-1-icon1 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+}
+.axyx-link1 {
+  height: 24px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.sim-card-1-group {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.backgroundshadow2 {
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 179px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: #cfcfcf;
+  width: 358px;
+  height: 64px;
+  overflow: hidden;
+  display: none;
+}
+.nav1 {
+  width: 390px;
+  height: 92px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frame-form {
+  margin: 0;
+  width: 1536px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 47px;
+  max-width: 100%;
+}
+.checkout,
+.checkout-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.checkout-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  max-width: 100%;
+}
+.checkout {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 14px 0 32px;
+  gap: 120px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1500px) {
+  .frame-form {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .checkout {
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .frame-form {
+    gap: 23px;
+  }
+  .checkout {
+    gap: 30px;
+  }
+}

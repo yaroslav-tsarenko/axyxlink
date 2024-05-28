@@ -1,0 +1,256 @@
+.copyright-2024 {
+  position: relative;
+  line-height: 24px;
+}
+.copyright-2024-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+}
+.apple-paysvg-icon,
+.visasvg-icon {
+  align-self: stretch;
+  width: 64px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+}
+.layer-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.google-pay-primary-logo-logo-s {
+  position: absolute;
+  height: 100.64%;
+  width: 49.22%;
+  top: 0;
+  right: 25.47%;
+  bottom: -0.64%;
+  left: 25.31%;
+  z-index: 1;
+}
+.google-paysvg1 {
+  height: 31.3px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.google-paysvg-fill {
+  flex: 1;
+  overflow: hidden;
+  padding: 0.3px 0 0.4px;
+}
+.google-paysvg,
+.google-paysvg-fill,
+.visasvg-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.google-paysvg {
+  flex: 1;
+  overflow: hidden;
+}
+.visasvg-parent {
+  width: 240px;
+  gap: 24px;
+}
+.horizontalborder,
+.section,
+.section-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.horizontalborder {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 31px 0 32px;
+  gap: 20px;
+}
+.section,
+.section-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.section {
+  border-radius: 16px;
+  background-color: #0c0c0c;
+  padding: 48px;
+  box-sizing: border-box;
+  gap: 8px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+.section-parent {
+  gap: 64px;
+}
+.button-activate-mobile-searc2 {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: 266px;
+  border-radius: 9999px;
+  width: 32px;
+  height: 32px;
+}
+.button-toggle-menu-svg2 {
+  position: absolute;
+  top: 11.5px;
+  left: 356px;
+  width: 1px;
+  height: 40px;
+}
+.vector-icon6,
+.vector-icon7,
+.vector-icon8 {
+  position: absolute;
+  width: 0.2%;
+  top: 49.22%;
+  right: 7.35%;
+  left: 92.46%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+}
+.vector-icon7,
+.vector-icon8 {
+  top: 33.59%;
+}
+.vector-icon8 {
+  top: 64.84%;
+}
+.sim-card-1-icon2 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+}
+.axyx-link2 {
+  height: 24px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.sim-card-1-container {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.backgroundshadow2 {
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 179px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: #cfcfcf;
+  width: 358px;
+  height: 64px;
+  overflow: hidden;
+  display: none;
+}
+.nav2 {
+  width: 390px;
+  height: 92px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 2;
+}
+.imagebackground-icon2 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 0 !important;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.main2,
+.rewards {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main2 {
+  flex: 1;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 14px 48px 48px;
+  box-sizing: border-box;
+  gap: 34px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+.rewards {
+  width: 100%;
+  background: linear-gradient(#1d1d1d, #1d1d1d), #fff;
+  overflow-y: auto;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .main2,
+  .section {
+    box-sizing: border-box;
+  }
+  .section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .main2 {
+    padding: 20px 24px 31px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .horizontalborder {
+    flex-wrap: wrap;
+  }
+  .section {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    box-sizing: border-box;
+  }
+  .section-parent {
+    gap: 32px;
+  }
+  .main2 {
+    gap: 17px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section-parent {
+    gap: 16px;
+  }
+}

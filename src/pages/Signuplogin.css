@@ -1,0 +1,134 @@
+.button-activate-mobile-searc {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: 266px;
+  border-radius: 9999px;
+  width: 32px;
+  height: 32px;
+}
+.button-toggle-menu-svg {
+  position: absolute;
+  top: 11.5px;
+  left: 356px;
+  width: 1px;
+  height: 40px;
+}
+.vector-icon,
+.vector-icon1,
+.vector-icon2 {
+  position: absolute;
+  width: 0.2%;
+  top: 49.22%;
+  right: 7.35%;
+  left: 92.46%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+}
+.vector-icon1,
+.vector-icon2 {
+  top: 33.59%;
+}
+.vector-icon2 {
+  top: 64.84%;
+}
+.sim-card-1-icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+}
+.axyx-link {
+  height: 24px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.sim-card-1-parent {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.backgroundshadow {
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 179px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: #cfcfcf;
+  width: 358px;
+  height: 64px;
+  overflow: hidden;
+  display: none;
+}
+.nav {
+  width: 390px;
+  height: 92px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 3;
+}
+.imagebackground-icon {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 0 !important;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.main,
+.signuplogin {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main {
+  flex: 1;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 14px 48px 48px;
+  box-sizing: border-box;
+  gap: 81.5px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+.signuplogin {
+  width: 100%;
+  background: linear-gradient(#1d1d1d, #1d1d1d), #fff;
+  overflow-y: auto;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .main {
+    gap: 41px;
+    padding: 20px 24px 31px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}

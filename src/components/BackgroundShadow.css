@@ -1,0 +1,105 @@
+.hero-shape-3svg-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.easysvg-icon {
+  height: 54.8px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.backgroundshadow-child,
+.hero-shape-3svg-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.hero-shape-3svg-parent {
+  justify-content: flex-start;
+  padding: 30.1px 26px 30.2px;
+  position: relative;
+}
+.backgroundshadow-child {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 1px 0 0;
+}
+.heading-2209 {
+  position: relative;
+  line-height: 30px;
+}
+.heading-2-3-a-hassle-free-e-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 35px 0 36px;
+}
+.message-away,
+.transparent-and-flexible,
+.without-hunting-for {
+  display: block;
+}
+.without-hunting-for-container {
+  margin: 0;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+}
+.backgroundshadow4,
+.frame-parent20 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent20 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 23.5px;
+}
+.backgroundshadow4 {
+  flex: 0.9948;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: #cfcfcf;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 32px 25px 42px;
+  box-sizing: border-box;
+  gap: 32px;
+  min-width: 397px;
+  max-width: 100%;
+  min-height: 335px;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 825px) {
+  .backgroundshadow4 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading-2209 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .backgroundshadow4 {
+    gap: 16px;
+    flex: 1;
+  }
+}
